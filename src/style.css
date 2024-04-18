@@ -1,0 +1,56 @@
+body{
+    background-color: #93B5C6;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2018/07/14/15/27/cafe-3537801_1280.jpg")
+    
+    
+}
+nav{
+    background-color: #176B87;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    gap: 20px;
+}
+#home ,#menu , #about{
+    height: 35px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #64CCC5;
+    color: aliceblue;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+#home:hover ,#menu:hover , #about:hover{
+    background-color: rgba(202, 16, 16, 0.514);
+}
+#content {
+    background-color: #DAFFFB;
+    margin: 0 auto;
+    max-width: 975px;
+    min-width: 360px;
+    height: 100vh;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+  }
+img{
+    padding: 30px;
+    height: 800px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+.contact h1{
+    font-size: 30px;
+}
